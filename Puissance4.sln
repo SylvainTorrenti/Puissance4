@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puissance4", "Puissance4\Puissance4.csproj", "{418CBA79-CDC6-4DDD-95AD-279D3FC21E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puissance4", "Puissance4\Puissance4.csproj", "{418CBA79-CDC6-4DDD-95AD-279D3FC21E58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D} = {71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryPuissance4", "ClassLibraryPuissance4\ClassLibraryPuissance4.csproj", "{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{418CBA79-CDC6-4DDD-95AD-279D3FC21E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418CBA79-CDC6-4DDD-95AD-279D3FC21E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418CBA79-CDC6-4DDD-95AD-279D3FC21E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F6E9DC-F3FF-41A9-B0CD-03CAF57E8C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
